@@ -161,6 +161,12 @@ form button:hover {
         <p>&copy; 2024 Livewell Housing Solutions Ltd. All rights reserved.</p>
     </footer>
 
-    <script></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for contacting us! We will get back to you soon.');
+});
+        
+    </script>
 </body>
 </html>
